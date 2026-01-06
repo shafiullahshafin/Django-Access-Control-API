@@ -217,9 +217,9 @@ access-control-api/
 | door_name | CharField | Name of the door (e.g., "Main Entrance") |
 | access_granted | BooleanField | Whether access was granted (True/False) |
 | timestamp | DateTimeField | Automatic timestamp (auto_now_add=True) |
+```
 
-
-## License
+### License
 
 ```text
 This project is for technical assessment purposes.
