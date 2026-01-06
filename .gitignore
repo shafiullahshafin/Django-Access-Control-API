@@ -47,3 +47,11 @@ Thumbs.db
 
 # System events log
 system_events.log
+
+# Environment variables
+.env
+.env.*
+
+# Django secrets / cache
+*.sqlite3
+*.sqlite3-journal
