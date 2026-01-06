@@ -9,6 +9,8 @@ A Django REST API for logging door access events in an access control system.
 - Django signals for system event logging
 - SQLite database
 - Comprehensive unit tests
+- Added filtering to the endpoint
+- Containerized the application using Docker
 
 ## Requirements
 
@@ -216,22 +218,6 @@ access-control-api/
 | access_granted | BooleanField | Whether access was granted (True/False) |
 | timestamp | DateTimeField | Automatic timestamp (auto_now_add=True) |
 
-## Git Workflow
-
-This project follows a branching workflow:
-
-1. Development work is done on the `development` branch
-2. Features are committed with clear, descriptive messages
-3. When ready, `development` is merged into `main`
-
-## Future Enhancements
-
-- Add filtering to GET endpoint (e.g., by card_id)
-- Add pagination for large datasets
-- Implement authentication and permissions
-- Add Docker containerization
-- Add more detailed logging
-```
 
 ## License
 
